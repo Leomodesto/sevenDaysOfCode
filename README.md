@@ -4,12 +4,12 @@
 
 A sua tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:
 
-let numeroUm = 1
-let stringUm = '1'
-let numeroTrinta = 30
-let stringTrinta = '30'
-let numeroDez = 10
-let stringDez = '10'
+<p>let numeroUm = 1</p>
+<p>let stringUm = '1'</p>
+<p>let numeroTrinta = 30</p>
+<p>let stringTrinta = '30'</p>
+<p>let numeroDez = 10</p>
+<p>let stringDez = '10'</p>
 
 if (COMPARAR O numeroUm e a stringUm) {
   console.log('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes')
