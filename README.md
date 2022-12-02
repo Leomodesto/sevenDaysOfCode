@@ -31,9 +31,14 @@ if (COMPARAR O numeroDez e a stringDez) {
 
 
 <h3> Resposta: </h3>
+
 ```
-if (stringUm == numeroUm && typeof stringUm != typeof numeroUm){console.log("As variaveis tem o mesmo valor mas tipos diferentes")}
+if (stringUm == numeroUm && typeof stringUm != typeof numeroUm){
+
+    console.log("As variaveis tem o mesmo valor mas tipos diferentes")}
+    
 else{
+
     console.log("as variaveis nao tem o mesmo valor")
 }
 ```
@@ -76,12 +81,12 @@ function bemVindo(){
     const idade = prompt("Qual sua idade?")
     const linguagem = prompt("Qual lingagem de programação você está estudando?")
 
-    alert("Olá " + nome + ", você tem " + idade + " anos e está aprendendo " + linguagem + ".");
+    alert("Olá " + nome + ", você tem " + idade + " anos e já está aprendendo " + linguagem + "!");
 
-    const escolha = prompt("Você gosta de estudar " + linguagem + "? Responda com o numero 1 para sim e 2 para não");
+    const escolha = prompt("Você gosta de estudar " + linguagem + "? Responda com o número 1 para SIM e 2 para NÃO.");
 
     if(escolha == 1 ){
-        alert("Muito bom! Continue estudando e você terá muito sucesso")
+        alert("Muito bom! Continue estudando e você terá muito sucesso.")
     }
     else {
         alert ("Ahh que pena... Já tentou aprender outras linguagens?") 
@@ -89,5 +94,5 @@ function bemVindo(){
     
 }
 
-BemVindo()
+bemVindo()
 ```
